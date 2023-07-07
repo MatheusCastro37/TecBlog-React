@@ -1,12 +1,13 @@
 import Header from './components/Header';
 import ButtonHeader from './components/ButtonHeader';
+import CardContainer from './components/Card';
 
-import './app.css'
+import './app.css';
 
 function App() {
 
   return (
-    <>
+    <div className='container'>
       <Header>
         <nav>
           <ButtonHeader title="MENU" />
@@ -16,7 +17,9 @@ function App() {
           <ButtonHeader title="ELETRONICOS" />
         </nav>
       </Header>
-    </>
+      <CardContainer />
+      <CardContainer />
+    </div>
   )
 }
 
