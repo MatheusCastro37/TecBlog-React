@@ -19,8 +19,8 @@ function App() {
       </Header>
       <div>
         <main>
-          <CardContainer />
-          <CardContainer />
+          <CardContainer title="Titulo de postagem 1" img="Post"/>
+          <CardContainer title="Titulo de postagem 2" img="Post2"/>
         </main>
         <div id='sideContent'>
           <aside>
